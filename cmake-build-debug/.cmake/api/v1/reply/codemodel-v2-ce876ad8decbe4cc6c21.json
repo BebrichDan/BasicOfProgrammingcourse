@@ -94,21 +94,21 @@
 				{
 					"directoryIndex" : 3,
 					"id" : "algorithms::@4f84be16bc75261b2db5",
-					"jsonFile" : "target-algorithms-Debug-746bb3826c1070273143.json",
+					"jsonFile" : "target-algorithms-Debug-d95afdaec0489efc7d72.json",
 					"name" : "algorithms",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "course::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-course-Debug-f340bef32dc9d1d7f26c.json",
+					"jsonFile" : "target-course-Debug-8d060a34dc72f628d222.json",
 					"name" : "course",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "data_structures::@396ab3a44f37844d7cdb",
-					"jsonFile" : "target-data_structures-Debug-302e54cc7d9bb70daf2a.json",
+					"jsonFile" : "target-data_structures-Debug-46ff56f2640b803f23b6.json",
 					"name" : "data_structures",
 					"projectIndex" : 0
 				}
