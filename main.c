@@ -31,6 +31,8 @@ void test_unordered_array_set_union () {
     test_unordered_array_set_union2 () ;
 }
 void test () {
+    int a =1;
+
     test_unordered_array_set_union () ;
 }
 

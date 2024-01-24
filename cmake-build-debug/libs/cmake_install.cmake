@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/bob/CLionProjects/cource/libs
+# Install script for directory: C:/Users/bob/CLionProjects/github/BasicOfProgrammingcourse/libs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Project")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/course")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/bob/CLionProjects/cource/cmake-build-debug/libs/data_structures/cmake_install.cmake")
+  include("C:/Users/bob/CLionProjects/github/BasicOfProgrammingcourse/cmake-build-debug/libs/data_structures/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/bob/CLionProjects/cource/cmake-build-debug/libs/algorithms/cmake_install.cmake")
+  include("C:/Users/bob/CLionProjects/github/BasicOfProgrammingcourse/cmake-build-debug/libs/algorithms/cmake_install.cmake")
 endif()
 

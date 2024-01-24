@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/bob/CLionProjects/cource/libs/data_structures
+# Install script for directory: C:/Users/bob/CLionProjects/github/BasicOfProgrammingcourse/libs/data_structures
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Project")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/course")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

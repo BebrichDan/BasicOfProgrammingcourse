@@ -118,8 +118,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/bob/CLionProjects/cource/cmake-build-debug",
-		"source" : "C:/Users/bob/CLionProjects/cource"
+		"build" : "C:/Users/bob/CLionProjects/github/BasicOfProgrammingcourse/cmake-build-debug",
+		"source" : "C:/Users/bob/CLionProjects/github/BasicOfProgrammingcourse"
 	},
 	"version" : 
 	{

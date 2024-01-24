@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/bob/CLionProjects/cource/libs/algorithms
+# Install script for directory: C:/Users/bob/CLionProjects/github/BasicOfProgrammingcourse/libs/algorithms
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Project")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/course")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
