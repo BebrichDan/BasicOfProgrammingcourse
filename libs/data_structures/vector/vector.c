@@ -4,37 +4,35 @@
 
 vector createVector(size_t n)
 {
-    int *data = malloc(sizeof(int)*n);
-    if(data == NULL)
+    int *data = malloc(sizeof(int) * n);
+    if (data == NULL)
     {
         fprintf(stderr, "bad alloc");
         exit(1);
     }
-    return (vector){data, 0, n};
+    return (vector) {data, 0, n};
 }
 
 void reserve(vector *v, size_t newCapacity)
 {
     if (newCapacity > v->size)
     {
-        v->data = malloc(sizeof(int)*newCapacity);
-        if(v->data == NULL)
+        v->data = malloc(sizeof(int) * newCapacity);
+        if (v->data == NULL)
         {
             fprintf(stderr, "bad alloc");
             exit(1);
         }
         v->capacity = newCapacity;
-    }
-    else if (newCapacity < v->size)
+    } else if (newCapacity < v->size)
     {
-        v->data = malloc(sizeof(int)*newCapacity);
+        v->data = malloc(sizeof(int) * newCapacity);
         v->size = newCapacity;
         v->capacity = newCapacity;
-    }
-    else if (newCapacity == 0)
+    } else if (newCapacity == 0)
     {
         v->data = malloc(sizeof(NULL));
-        v->data =  NULL;
+        v->data = NULL;
         v->size = 0;
         v->capacity = 0;
     }
@@ -76,14 +74,17 @@ int getVectorValue(vector *v, size_t i)
     return v->data[i];
 }
 
-void pushBack(vector *v, int x) {
-    if (isFull(v)){
+void pushBack(vector *v, int x)
+{
+    if (isFull(v))
+    {
         reserve(v, v->capacity * 2);
         v->data[++v->size] = x;
         return;
     }
 
-    if(v->capacity == 0){
+    if (v->capacity == 0)
+    {
         reserve(v, 1);
         v->data[v->size++] = x;
         return;
@@ -94,7 +95,7 @@ void pushBack(vector *v, int x) {
 
 void popBack(vector *v)
 {
-    if(isEmpty(v))
+    if (isEmpty(v))
     {
         fprintf(stderr, "vector is empty");
         exit(1);
@@ -102,22 +103,23 @@ void popBack(vector *v)
     v->size--;
 }
 
-int* atVector(vector *v, size_t index)
+int *atVector(vector *v, size_t index)
 {
-    if(v->size<index){
-        fprintf(stderr,  "IndexError: a[%zu] is not exists", index);
+    if (v->size < index)
+    {
+        fprintf(stderr, "IndexError: a[%zu] is not exists", index);
         exit(1);
     }
 
-    return &(v->data[index-1]);
+    return &(v->data[index - 1]);
 }
 
-int* back(vector *v)
+int *back(vector *v)
 {
-    return &v->data[v->size-1];
+    return &v->data[v->size - 1];
 }
 
-int* front(vector *v)
+int *front(vector *v)
 {
     return &v->data[0];
 }

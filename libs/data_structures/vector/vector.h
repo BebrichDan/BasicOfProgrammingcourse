@@ -44,4 +44,4 @@ int* atVector(vector *v, size_t index);
 int* back(vector *v);
 
 //возвращает указатель на нулевой элемент вектора
-int* front(vector *v);
+int *front(vector *v);
