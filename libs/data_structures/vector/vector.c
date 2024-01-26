@@ -24,7 +24,7 @@ void reserve(vector *v, size_t newCapacity)
             exit(1);
         }
         v->capacity = newCapacity;
-    } else if (newCapacity < v->size)
+    } else if (newCapacity < v->size || newCapacity == v->size)     //why ||
     {
         v->data = malloc(sizeof(int) * newCapacity);
         v->size = newCapacity;
