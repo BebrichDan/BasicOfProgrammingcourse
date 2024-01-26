@@ -7,7 +7,13 @@
 
 int main ()
 {
-    vector v = createVector(0);
+    vector v = createVector(2);
+
+    pushBack(&v, 2);
+    pushBack(&v, 3);
+
+
+    printf("%d", v.data[0]);
 
     free(v.data);
     return 0;
