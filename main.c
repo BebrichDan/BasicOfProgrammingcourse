@@ -9,9 +9,6 @@ int main ()
 {
     vector v = createVector(2);
 
-    pushBack(&v, 2);
-    pushBack(&v, 3);
-
 
     printf("%d", v.data[0]);
 
