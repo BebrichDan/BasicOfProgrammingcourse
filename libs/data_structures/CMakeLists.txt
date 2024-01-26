@@ -3,4 +3,7 @@ add_library(data_structures
         ../base/base.c
         ../base/base.h
         vector/vector.c
-        vector/vector.h)
+        vector/vector.h
+        vector/main.c
+        vector/vectorVoid.h
+        vector/vectorVoid.c)
