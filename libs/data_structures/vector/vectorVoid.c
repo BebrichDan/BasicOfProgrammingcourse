@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include <malloc.h>
 #include "vectorVoid.h"
 
@@ -58,4 +59,22 @@ void deleteVectorV(vectorVoid *v)
     v->size = 0;
     v->capacity = 0;
     v->baseTypeSize = 0;
+}
+bool isEmptyV(vectorVoid *v)
+{
+    return v->size == 0;
+}
+bool isFullV(vectorVoid *v)
+{
+    return v->size == v->capacity && v->size > 0;
+}
+void getVectorValueV(vectorVoid *v, size_t index, void *destination)
+{
+    char *source = (char *) v->data + index * v->baseTypeSize;
+    memcpy(destination, source, v->baseTypeSize);
+}
+void setVectorValueV(vectorVoid *v, size_t index, void *source)
+{
+    int *i = &v->data[index-1];
+    memcpy(i, source,  v->baseTypeSize);      //all rigt?
 }
