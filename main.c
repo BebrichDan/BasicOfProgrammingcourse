@@ -3,15 +3,26 @@
 #include <stdio.h>
 #include <stdint.h>
 #include "C:\Users\bob\CLionProjects\github\BasicOfProgrammingcourse\libs\data_structures\vector\vector.h"
+#include "C:\Users\bob\CLionProjects\github\BasicOfProgrammingcourse\libs\data_structures\matrix\matrix.h"
+#include "libs/base/base.h"
 
 
-int main ()
+
+int main()
 {
-    vector v = createVector(2);
 
 
-    printf("%d", v.data[0]);
+    matrix r = getMemMatrix(3, 3);
+    inputMatrix(&r);
 
-    free(v.data);
+    position t = getMinValuePos(r);
+
+    printf("%d %d", t.rowIndex, t.colIndex);
+
+
+    free(r.values);
+
     return 0;
 }
+
+

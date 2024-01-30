@@ -10,7 +10,7 @@ typedef struct bitset {
 } bitset;
 
 // возвращает пустое множество c универсумом 0, 1,..., maxValue
-bitset bitset_create(unsigned maxValue);
+int * bitset_create(unsigned maxValue);
 
 // возвращает значение ’истина’, если значение value имеется в множестве set
 // иначе - ’ложь’

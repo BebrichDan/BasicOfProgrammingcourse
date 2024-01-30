@@ -1,4 +1,3 @@
-
 #include "base.h"
 
 void swap(int *a, int *b) {
@@ -8,8 +7,8 @@ void swap(int *a, int *b) {
 }
 
 int getMinIndex(const int *arr, size_t n) {
-    if (n == 0) {
-        return -1;                             // Обработка случая пустого массива
+    if (n == 0) {                           // Обработка случая пустого массива
+        return -1;
     }
 
     int minElement = arr[0];
@@ -23,4 +22,21 @@ int getMinIndex(const int *arr, size_t n) {
     }
 
     return minIndex;
+}
+int getMaxIndex(const int *arr, size_t n) {
+    if (n == 0) {                           // Обработка случая пустого массива
+        return -1;
+    }
+
+    int maxElement = arr[0];
+    int maxIndex = 0;
+
+    for (int i = 1; i < n; ++i) {
+        if (arr[i] > maxElement) {
+            maxElement = arr[i];
+            maxIndex = i;
+        }
+    }
+
+    return maxIndex;
 }

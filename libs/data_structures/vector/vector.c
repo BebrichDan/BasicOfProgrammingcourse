@@ -4,13 +4,31 @@
 
 vector createVector(size_t n)
 {
-    int *data = malloc(sizeof(int) * n);
+    int *data = (int*)malloc(sizeof(int) * n);
     if (data == NULL)
     {
         fprintf(stderr, "bad alloc");
         exit(1);
     }
     return (vector) {data, 0, n};
+}
+vector createVector1(size_t n) {
+    vector v;
+
+    // Выделяем память для элементов вектора.
+    v.data = (int *)malloc(sizeof(int) * n);
+
+    if (v.data == NULL) {
+        // Обработка ошибки выделения памяти (например, можно вызвать exit(1)).
+        // Здесь предполагается, что вы будете использовать функцию createVector в контексте,
+        // где можно обработать ошибку.
+        exit(1);
+    }
+
+    v.size = n;
+    v.capacity = n; // Пусть вместимость равна размеру, вы можете изменить это по вашему усмотрению.
+
+    return v;
 }
 
 void reserve(vector *v, size_t newCapacity)

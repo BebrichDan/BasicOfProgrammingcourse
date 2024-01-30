@@ -6,7 +6,7 @@ int bitset_checkValue(bitset *a, unsigned value) {
     return value >= 0 && value <= a->maxValue;
 }
 
-bitset bitset_create(unsigned setMaxValue) {
+int * bitset_create(unsigned setMaxValue) {
     assert(setMaxValue < 32);
     return (bitset) {0, setMaxValue};
 }

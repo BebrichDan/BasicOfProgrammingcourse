@@ -23,9 +23,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b29eaf1-aac9-469d-9351-cc8547a91f4a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/course.dir/libs/data_structures/vector/vectorVoid.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/libs/algorithms/CMakeFiles/algorithms.dir/__/data_structures/vector/vectorVoid.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/vector/main.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/vector/vectorVoid.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/data_structures/matrix/matrix.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/data_structures/matrix/matrix.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/data_structures/vector/vectorVoid.c" beforeDir="false" afterPath="$PROJECT_DIR$/libs/data_structures/vector/vectorVoid.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/data_structures/vector/vectorVoid.h" beforeDir="false" afterPath="$PROJECT_DIR$/libs/data_structures/vector/vectorVoid.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-5bb94dbbf82e7cecaf6f.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-e16c6d6d62a11e731315.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-01-26T15-39-05-0760.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-01-30T18-44-16-0324.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-course-Debug-19fcbb8315899f3a4152.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-course-Debug-0f211b0078c26ce9c16c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-data_structures-Debug-b5dd0730ec42c34daf94.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-data_structures-Debug-83a8a30575bb609fd7b1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/course.dir/libs/base/base.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/course.dir/libs/base/base.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/course.dir/libs/data_structures/vector/vector.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/course.dir/libs/data_structures/vector/vector.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/course.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/course.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/course.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libs/algorithms/CMakeFiles/algorithms.dir/__/base/base.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libs/algorithms/CMakeFiles/algorithms.dir/__/base/base.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libs/algorithms/CMakeFiles/algorithms.dir/__/data_structures/vector/vector.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libs/algorithms/CMakeFiles/algorithms.dir/__/data_structures/vector/vector.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libs/algorithms/libalgorithms.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libs/algorithms/libalgorithms.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/__/base/base.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/__/base/base.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libs/data_structures/libdata_structures.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libs/data_structures/libdata_structures.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/base/base.c" beforeDir="false" afterPath="$PROJECT_DIR$/libs/base/base.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/base/base.h" beforeDir="false" afterPath="$PROJECT_DIR$/libs/base/base.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/data_structures/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/data_structures/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/data_structures/bitset/bitset.c" beforeDir="false" afterPath="$PROJECT_DIR$/libs/data_structures/bitset/bitset.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/data_structures/bitset/bitset.h" beforeDir="false" afterPath="$PROJECT_DIR$/libs/data_structures/bitset/bitset.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/data_structures/vector/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/libs/data_structures/vector/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/data_structures/vector/vector.c" beforeDir="false" afterPath="$PROJECT_DIR$/libs/data_structures/vector/vector.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/data_structures/vector/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/libs/data_structures/vector/vector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +99,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "C/C++ File.main.c.executor": "Run",
+    "C/C++ File.main1.c.executor": "Run",
     "CMake Application.algorithms.executor": "Run",
     "CMake Application.course.executor": "Run",
     "CMake Application.data_structures.executor": "Run",
@@ -87,7 +122,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="C/C++ File.main.c">
+  <component name="RunManager" selected="C/C++ File.main1.c">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -108,6 +143,12 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main1.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="course" TARGET_NAME="main1.c" CONFIG_NAME="main1.c">
+      <option name="sourceFile" value="libs\data_structures\vector\main1.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="course" TARGET_NAME="main.c" CONFIG_NAME="main.c">
       <option name="sourceFile" value="libs\data_structures\vector\main.c" />
       <method v="2">
@@ -115,6 +156,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="C/C++ File.main1.c" />
       <item itemvalue="C/C++ File.main.c" />
       <item itemvalue="CMake Application.algorithms" />
       <item itemvalue="CMake Application.course" />
@@ -122,6 +164,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.main1.c" />
         <item itemvalue="C/C++ File.main.c" />
       </list>
     </recent_temporary>
@@ -151,7 +194,12 @@
       <workItem from="1706103885438" duration="1222000" />
       <workItem from="1706124882603" duration="7029000" />
       <workItem from="1706265665836" duration="1791000" />
-      <workItem from="1706274474811" duration="13326000" />
+      <workItem from="1706274474811" duration="18540000" />
+      <workItem from="1706442256508" duration="4733000" />
+      <workItem from="1706457622260" duration="8341000" />
+      <workItem from="1706528104104" duration="16905000" />
+      <workItem from="1706634408197" duration="5061000" />
+      <workItem from="1706639894681" duration="1520000" />
     </task>
     <servers />
   </component>

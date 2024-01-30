@@ -1,11 +1,10 @@
 #include "vectorVoid.h"
+#include "vector.h"
+#include <stdio.h>
 
 int main()
 {
-    vectorVoid t;
-    t.size = 0;
-    t.capacity = 1;
-    t.baseTypeSize = sizeof(int);
-
+    vector t = createVector((size_t)4);
+    free(t.data);
     return 0;
 }

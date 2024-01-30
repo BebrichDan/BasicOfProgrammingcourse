@@ -49,5 +49,7 @@ int* back(vector *v);
 //возвращает указатель на нулевой элемент вектора
 int *front(vector *v);
 
+vector createVector1(size_t n);
+
 #endif
 
